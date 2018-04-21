@@ -4,6 +4,8 @@ Airport App
 Assignment Components Deliverable:
 1) API 
 2) User Interface 
+
+
 API gateway provides following API as mentioned below:
 •	api/airports
 This API returns all the airports for Europe continent by calling external API. This api is called after every 5 minutes and if it gets data successfully from externalApi a custom header ‘from-feed’ is added with value “success” stating response received successfully otherwise “ failure” is added to ‘from-feed’ header.
